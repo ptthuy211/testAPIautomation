@@ -1,0 +1,4 @@
+testCase,email,password,expectedCode,expectedMessage
+Case 1: Register successfully,eve.holt@reqres.in,pistol,200,token
+Case 2: Register failed due to blank  password,eve.holt@reqres.in,,400,Missing password
+Case 3: Register failed due to using wrong  email,eve.holtk@reqres,pistol,400,Note: Only defined users succeed registration
